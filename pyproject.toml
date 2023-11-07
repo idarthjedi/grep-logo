@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "grep-logo"
+version = "0.1.0"
+description = ""
+authors = ["Jediah Logiodice <jediah@logiodice.com>"]
+readme = "README.md"
+packages = [{include = "grep_logo"}]
+
+[tool.poetry.dependencies]
+python = "<3.13,>=3.9"
+selenium = "^4.15.2"
+requests = "^2.31.0"
+pandas = "^2.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
